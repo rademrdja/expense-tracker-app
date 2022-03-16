@@ -1,0 +1,38 @@
+.panel-container {
+  margin: 25px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0 40px 0;
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.1);
+}
+
+.income,
+.expenses {
+  text-align: center;
+  width: 50%;
+}
+
+.income {
+  border-right: 1px solid black;
+}
+
+.income p {
+  color: #008000;
+}
+
+.expenses p {
+  color: #b80202;
+}
+
+.line {
+  height: 100px;
+  width: 1px;
+  background-color: grey;
+}
+
+.number {
+  font-size: 30px;
+}
